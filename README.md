@@ -11,7 +11,6 @@ Package dependancies:
  * HAProxy: 1.5+
 
 npm dependancies:
- * npm install string-to-json
  * npm install express --save
  * npm install gamedig
  * npm install https
