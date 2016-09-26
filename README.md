@@ -10,7 +10,7 @@ Package dependancies:
  * Node: 0.10.46+
  * Apache: 2.4+
  * Varnish: 4+
- * HAProxy: 1.5+
+ * HAProxy: 1.4+
 
 npm dependancies:
  * npm install express --save
