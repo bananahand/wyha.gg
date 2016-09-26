@@ -17,4 +17,4 @@ npm dependancies:
  * npm install gamedig
  * npm install https 
 
-No install instructions, you should be able to figure things out by the dependancies I mentioned! :P
+No install instructions, you should be able to figure things out from the dependancies I mentioned! :P
