@@ -1,5 +1,5 @@
 # wyha.gg
-**The https://wyha.gg site files. 
+** The https://wyha.gg site files. 
 
 This is meant to be used as a template to create your own quick launch server page. 
 
