@@ -1,5 +1,5 @@
 # wyha.gg
-The wyha.gg site files
+The https://wyha.gg site files
 
 Dependancies:
  * npm: 1.3.6+
