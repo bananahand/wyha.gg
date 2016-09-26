@@ -148,5 +148,4 @@ sub vcl_deliver {
   unset resp.http.Via;
   unset resp.http.X-Varnish;
   set resp.http.X-Powered-By = "RFC 2549";
-  set resp.http.Upgrade = "HTTP/2.0";
 }
