@@ -31,7 +31,6 @@ app.get('/office.json', function (req, res) {
   );
 });
 
-
 // Gamedig endpoint 2, makes Gamedig json output available at /throwback.json on listening port.
 app.get('/throwback.json', function (req, res) {
   Gamedig.query(
