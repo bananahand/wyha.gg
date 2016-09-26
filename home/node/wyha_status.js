@@ -50,5 +50,5 @@ app.get('/throwback.json', function (req, res) {
 
 // Listen on port 6969.
 app.listen(6969, function () {
-  console.log('wyHA 24/7 Office status listening on port 6969');
+  console.log('wyHA server status listening on port 6969');
 });
