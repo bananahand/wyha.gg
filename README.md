@@ -15,7 +15,6 @@ Package dependancies:
 npm dependancies:
  * npm install express --save
  * npm install gamedig
- * npm install https
- 
- 
- No install instructions, you should be able to figure things out by the dependancies I mentioned! :P
+ * npm install https 
+
+No install instructions, you should be able to figure things out by the dependancies I mentioned! :P
