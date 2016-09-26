@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>#wyHA</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Finger+Paint" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+    <script>
+    $.getJSON("/office.json", function(data){$("office").append(data.players.length);});
+    $.getJSON("/throwback.json", function(data){$("throwback").append(data.players.length);});
+    </script>
+  </head>
+  <body>
+    <wyha class=head><p class="text-center" style="color:red">#wyHA</p></wyha>
+    <p></br></p>
+    <wyha class=sub><p class="text-center" style="color:white">24/7 Office</p></wyha>
+    <wyha class=h1><p style="color:#66cc00"><office></office><white style="color:white">PLAYERS ONLINE</white></p></wyha>
+    <p class="text-center"><a href="steam://connect/72.5.195.44:27015" class="btn btn-primary">CONNECT</a></br></br></p>
+    <wyha class=sub><p class="text-center" style="color:white">Throwback</p></wyha>
+    <wyha class=h1><p style="color:#66cc00"><throwback></throwback><white style="color:white">PLAYERS ONLINE</white></p></wyha>
+    <p class="text-center"><a href="steam://connect/66.150.214.89:27015" class="btn btn-primary">CONNECT</a></p>
+  </body>
+</html>

@@ -1,0 +1,3 @@
+<IfModule mod_filter.c>
+AddOutputFilterByType DEFLATE "image/svg+xml"
+</IfModule>
